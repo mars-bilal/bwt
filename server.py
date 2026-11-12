@@ -15,7 +15,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
 
     # Attende che un client si connetta.
     # accept() restituisce un nuovo socket (conn) per comunicare
-    # con il client e il suo indirizzo (addr).
+    # con il client e il suo indirizzo (addr)
     conn, addr = server.accept()
 
     with conn:
